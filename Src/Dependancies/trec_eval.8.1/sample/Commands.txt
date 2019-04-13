@@ -1,0 +1,24 @@
+cd C:/Users/kkb19103/Desktop/trec_eval.8.1
+./trec_eval sample/307-690.qrels sample/CommonCoreResultsPorterStem.res
+
+./trec_eval sample/307-690.qrels sample/CommonCoreIndex-PorterStem-BM25-0.0-0.0.res
+
+
+./sample/bash.sh
+
+cd C:/Users/kkb19103/Desktop/trec_eval.8.1 Original
+
+
+C:\cygwin64\bin\bash -c C:/Users/kkb19103/Desktop/trec_eval.8.1/sample/bash.sh
+
+
+
+Run Experiments Path :
+
+C:\Users\kkb19103\Desktop\LUCENE\lucene4ir\src\main\java\lucene4ir\AbdulazizClasses\RunExperiments
+
+Lucene Air Out
+
+C:\Users\kkb19103\Desktop\LUCENE\lucene4ir\out
+
+"PATH=C:\\cygwin64\\bin"

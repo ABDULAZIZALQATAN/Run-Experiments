@@ -1,7 +1,10 @@
 
+
 import lucene4ir.RetrievalApp;
 import java.io.*;
 import java.util.ArrayList;
+
+
 
 public class RunExperiments {
      private String model,
@@ -184,7 +187,8 @@ public class RunExperiments {
                     >> C:/Users/kkb19103/Desktop/trec_eval.8.1/sample/trec_eval/trecPorterStem-BM25-1.0-1.0.txt*/
         String bashCommand ,
                trecOutputFile, // Trec Output
-                trecEvalCommand = "C:/Users/kkb19103/Desktop/trec_eval.8.1/trec_eval";
+                // "C:/Users/kkb19103/Desktop/trec_eval.8.1/trec_eval";
+                trecEvalCommand = getRootFolder() + "/Src/Dependancies/trec_eval.8.1/trec_eval";
 
          trecOutputFile = String.format("%sTrec-%s.perf",trecOutputDirectory , experimentDynamicName);
          trec_evalFiles.add(trecOutputFile);
