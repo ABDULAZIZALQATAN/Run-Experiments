@@ -6,5 +6,6 @@ Run Experiments is a Java Class used to automatically run different information 
 * Qrel Files
 * Token Filters . Token Filters used for creating the index and retrieval experiment should be the same
 
-Explanation For Input :
+<p>Explanation For Input :</p>
+
 ![Input Explanation](https://user-images.githubusercontent.com/47518534/56099576-a984b580-5f06-11e9-938e-185cdf3798b9.jpg "Input Explanation")
