@@ -44,3 +44,12 @@ Retrieval Models (BM25 - PL2 and LMD) and ranges of their associated values (b,k
  * Performance : list of files that contain trec_eval results for each experiment 
  ![Performance](https://user-images.githubusercontent.com/47518534/56102506-4d7d5980-5f25-11e9-80be-42ab9df27853.jpg
  "Performance")
+ 
+ * Results : result files the contain the results of running RetrievaApp for each experiment
+  ![Results](https://user-images.githubusercontent.com/47518534/56102453-1444e980-5f25-11e9-87cb-fa1f41f963ea.jpg
+ "Results")
+ * Rertrieval Scripts : Java Scripts used to directly run RetrievalApp class using its associated retrieval parameter File
+   ![Rertrieval Scripts](https://user-images.githubusercontent.com/47518534/56102493-3dfe1080-5f25-11e9-9424-2cab6e9ad6cf.jpg
+ "Rertrieval Scripts")
+ 
+ 
