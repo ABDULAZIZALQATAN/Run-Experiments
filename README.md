@@ -31,8 +31,16 @@ Retrieval Models (BM25 - PL2 and LMD) and ranges of their associated values (b,k
 
 ### Output Results :
 
-
+![Output Explanation](https://user-images.githubusercontent.com/47518534/56103304-0c3b7880-5f2a-11e9-8080-4f2cf65f32bd.jpg
+ "Output Explanation")
+ 
 * Bash Scripts : a generated file that includes trec_eval commands for all experiments grouped by experiment file
 ![Bash Scripts](https://user-images.githubusercontent.com/47518534/56102807-4e16ef80-5f27-11e9-8ae0-aa5654ea6601.jpg
  "Bash Scripts")
-
+* Params : list of XML parameter files generated to be passed to RetrievalApp from [Lucene4Air](https://github.com/lucene4ir/lucene4ir/blob/master/README.md)
+![Retrieval Parameters](https://user-images.githubusercontent.com/47518534/56102458-21fa6f00-5f25-11e9-9f22-22c262707e2b.jpg
+ "Retrieval Parameters")
+ 
+ * Performance : list of files that contain trec_eval results for each experiment 
+ ![Performance](https://user-images.githubusercontent.com/47518534/56102506-4d7d5980-5f25-11e9-80be-42ab9df27853.jpg
+ "Performance")
