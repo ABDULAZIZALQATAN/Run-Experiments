@@ -8,6 +8,9 @@ Run Experiments is a Java Class used to automatically run different information 
 ## Input & Output
 
 ### Input Parameters :
+
+![Input Explanation](https://user-images.githubusercontent.com/47518534/56099576-a984b580-5f06-11e9-938e-185cdf3798b9.jpg "Input Explanation")
+
 * Experiement Files : you may add as much as required. only the files that are directly under Experiments folder
 ![Experiment File](https://user-images.githubusercontent.com/47518534/56101855-2b350d00-5f20-11e9-90e3-98c0f2e9297b.jpg "Experiment File")
 
@@ -24,10 +27,12 @@ Retrieval Models (BM25 - PL2 and LMD) and ranges of their associated values (b,k
 * Query Files
 * Qrel Files
 * Token Filters . Token Filters used for creating the index and retrieval experiment should be the same
-![Input Explanation](https://user-images.githubusercontent.com/47518534/56099576-a984b580-5f06-11e9-938e-185cdf3798b9.jpg "Input Explanation")
+
 
 ### Output Results :
 
-* Bash Scripts : a generated file that includes trec_eval commands for all experiments grouped by experiment file
 
+* Bash Scripts : a generated file that includes trec_eval commands for all experiments grouped by experiment file
+![Bash Scripts](https://user-images.githubusercontent.com/47518534/56102807-4e16ef80-5f27-11e9-8ae0-aa5654ea6601.jpg
+ "Bash Scripts")
 
