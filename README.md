@@ -8,22 +8,9 @@ Run Experiments is a Java Class used to automatically run different information 
 ## Input & Output
 
 ### Input Parameters :
-
-![Input Explanation](https://user-images.githubusercontent.com/47518534/56099576-a984b580-5f06-11e9-938e-185cdf3798b9.jpg "Input Explanation")
-
-* Experiement Files : you may add as much as required. only the files that are directly under Experiments folder
-![Experiment File](https://user-images.githubusercontent.com/47518534/56101855-2b350d00-5f20-11e9-90e3-98c0f2e9297b.jpg "Experiment File")
-
-
-Retrieval Models (BM25 - PL2 and LMD) and ranges of their associated values (b,k,c,mu)
-
-| Retrieval Model | Range Values |
-|:---:|:---:|
-|BM25|b,k|
-|PL2|c|
-|LMD|c|
-
-* Indices ( It is preferable to create the index using IndexerApp from https://github.com/lucene4ir/lucene4ir/blob/master/README.md __in order to match token filters with the run experiments__
+The Main input parameters are :
+* Experiment parameter files . (used to identify the values for each experiment run)
+* Indexes ( It is preferable to create the index using IndexerApp from https://github.com/lucene4ir/lucene4ir/blob/master/README.md __in order to match token filters with the run experiments__
 * Query Files
 * Qrel Files
 * Token Filters . Token Filters used for creating the index and retrieval experiment should be the same
@@ -52,4 +39,4 @@ Retrieval Models (BM25 - PL2 and LMD) and ranges of their associated values (b,k
    ![Rertrieval Scripts](https://user-images.githubusercontent.com/47518534/56102493-3dfe1080-5f25-11e9-9424-2cab6e9ad6cf.jpg
  "Rertrieval Scripts")
  
- 
+ For more details click [here](https://github.com/ABDULAZIZALQATAN/Run-Experiments/issues/10)
