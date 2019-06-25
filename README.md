@@ -3,8 +3,11 @@
 
 ## General Idea  :
 
-Run Experiments is a Java Class used to automatically run different information retrieval Experiments Automatically based on different input variables.
+Run Experiments is a Java Class used to automatically run different information retrieval Experiments Automatically based on different input variables in different XML Files. In addition , It accepts a range of values to run Ex : BRange = 1:10:2 >>> will run 5 experiments of B (1,3,5,7,9).
 
+Read the attached pdf for details 
+[here](https://github.com/ABDULAZIZALQATAN/Run-Experiments/issues/10)
+ 
 ## Input & Output
 
 ### Input Parameters :
@@ -38,5 +41,3 @@ The Main input parameters are :
  * Rertrieval Scripts : Java Scripts used to directly run RetrievalApp class using its associated retrieval parameter File
    ![Rertrieval Scripts](https://user-images.githubusercontent.com/47518534/56102493-3dfe1080-5f25-11e9-9424-2cab6e9ad6cf.jpg
  "Rertrieval Scripts")
- 
- For more details click [here](https://github.com/ABDULAZIZALQATAN/Run-Experiments/issues/10)
