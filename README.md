@@ -13,7 +13,7 @@ Read the attached pdf for details
 ### Input Parameters :
 The Main input parameters are :
 * Experiment parameter files . (used to identify the values for each experiment run)
-* Indexes ( It is preferable to create the index using IndexerApp from https://github.com/lucene4ir/lucene4ir/blob/master/README.md __in order to match token filters with the run experiments__
+* Indexes ( It is preferable to create the index using IndexerApp from [Lucene4IR](https://github.com/lucene4ir/lucene4ir/blob/master/README.md) __in order to match token filters with the run experiments__
 * Query Files
 * Qrel Files
 * Token Filters . Token Filters used for creating the index and retrieval experiment should be the same
